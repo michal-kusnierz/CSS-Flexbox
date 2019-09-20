@@ -50,8 +50,15 @@ a.fb{
   text-indent: -10000px;
   }
 
+.social{
+  max-width: 80px;
+}
+
 /* flex styles */
 
+nav ul.social{
+  flex: 1 1 0;
+}
 
 @media screen and (min-width: 768px){
   
