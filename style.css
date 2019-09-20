@@ -25,16 +25,11 @@ body{
     text-align: center;
     background: #ccc;
 }
-.one{
-}
+.one{order: 3;}
+.two{order: 2;}
+.three{order: 1;}
+.four{order: 0;}
 
-.two{
-}
-
-.three{
-}
-
-.four{
-
-}
-
+/* 
+the lowest number goes first...
+*/
