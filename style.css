@@ -21,22 +21,34 @@ body{
 
 .box{
     height: 100px;
-    flex-grow: 1;
+    flex: 1 0 200px;
 }
+
+/****************************
+3 properties combined:
+- first for flex-grow
+- second for flex-shrink
+- third for flex-basis
+
+if:
+  flex: 1;
+}
+than:
+=> flex-grow and flex-shrink is 1
+=> flex-basis is 0;
+
+*********/
 
 .one{
     background: red;
-    flex-basis: 100px;
 }
 
 .two{
     background: blue;
-    flex-basis: 200px;
 }
 
 .three{
     background: green;
-    flex-basis: 300px;
 }
 
 
