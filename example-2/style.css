@@ -52,11 +52,17 @@ a.fb{
 
 .social{
   max-width: 80px;
+  margin: 0 auto;
 }
 
 /* flex styles */
 
 nav ul.social{
+  flex: 1 1 0;
+  display: flex;
+}
+
+nav ul.social li{
   flex: 1 1 0;
 }
 
@@ -75,6 +81,9 @@ nav{
   justify-content: space-between;
 }
 
+.social{
+  margin: 0;
+}
 
- /* end media 768 */
+/* end media 768 */
 
