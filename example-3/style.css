@@ -108,5 +108,13 @@ ul.social{
   margin: 0;
 }
     
+#blocks{
+  display: flex;
+  flex-wrap: wrap;
+}
+article{
+  flex: 0 1 32%;
+}
+
 } /* end media 768 */
 
