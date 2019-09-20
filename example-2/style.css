@@ -41,7 +41,7 @@ nav a:hover{
 /* flex styles */
 
 @media screen and (min-width: 768px){
-
+  
 nav ul{
   display: flex;
 }
@@ -49,6 +49,12 @@ nav ul{
 nav li{
   flex: 1 1 0;
 }
-    
-} /* end media 768 */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ /* end media 768 */
 
