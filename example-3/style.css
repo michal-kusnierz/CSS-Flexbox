@@ -117,5 +117,9 @@ article{
   flex: 0 1 32%;
 }
 
+article.stack{
+  flex: 0 1 100%;
+}
+
 } /* end media 768 */
 
