@@ -67,23 +67,22 @@ nav ul.social li{
 }
 
 @media screen and (min-width: 768px){
-  
-nav ul{
-  display: flex;
-}
+  nav ul{
+    display: flex;
+  }
 
-nav li{
-  flex: 1 1 0;
-}
+  nav li{
+    flex: 1 1 0;
+  }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-}
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
 
-.social{
-  margin: 0;
+  .social{
+    margin: 0;
+  }
 }
-
 /* end media 768 */
 
